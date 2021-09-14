@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tables are for Data</title>
+  </head>
+  <body>
+    <h1>Tables are for Data</h1>
+
+    <img width="30%" src="images/plant.jpg" alt="plant" title="plant" />
+
+    <!--Simple Table-->
+    <table width="300" id="Simple">
+      <tr>
+        <th colspan="2"><h2>House Plants</h2></th>
+      </tr>
+      <tr>
+        <th style="text-align: left"><u>Plant Name</u></th>
+        <th style="text-align: left"><u>Dead?</u></th>
+      </tr>
+
+      <tr>
+        <th style="text-align: left">Echeveria 1</th>
+        <td>x</td>
+      </tr>
+      <tr>
+        <th style="text-align: left">Echeveria 2</th>
+        <td>x</td>
+      </tr>
+      <tr>
+        <th style="text-align: left">Cactus (sm)</th>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th style="text-align: left">Cactus (md)</th>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th style="text-align: left">Fuzzy Cactus</th>
+        <td>-</td>
+      </tr>
+
+      <tr>
+        <th style="text-align: left">Birds Nest Fern</th>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th style="text-align: left">Pony Tail Palm</th>
+        <td>-</td>
+      </tr>
+    </table>
+
+<!--Complex Table-->
+    <table id="Complex" cellpadding="10">
+      <thead>
+        <tr>
+          <th colspan="6"><h2>House Plants</h2></th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th style="text-align: left" scope="row" bgcolor="lightgreen"><u>Plant Name</u></th>
+        <th style="text-align: left" bgcolor="silver"><u>Over-watered</u></th>
+        <th style="text-align: left" bgcolor="silver"><u>Under-watered</u></th>
+        <th style="text-align: left" bgcolor="silver"><u>Fungus Gnats?</u></th>
+        <th style="text-align: left" bgcolor="silver"><u>Sun Burn?</u></th>
+        <th style="text-align: left" bgcolor="silver"><u>Dead?</u></th>
+      </tr>
+
+      <tr>
+        <th style="text-align: left">Echeveria 1</th>
+        <td>x</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>x</td>
+      </tr>
+      <tr>
+        <th style="text-align: left">Echeveria 2</th>
+        <td>x</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>x</td>
+      </tr>
+      <tr>
+        <th style="text-align: left">Cactus (sm)</th>
+        <td>-</td>
+        <td>x</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th style="text-align: left">Cactus (md)</th>
+        <td>-</td>        
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th style="text-align: left">Fuzzy Cactus</th>
+        <td>-</td>
+        <td>x</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+
+      <tr>
+        <th style="text-align: left">Birds Nest Fern</th>
+        <td>-</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th style="text-align: left">Pony Tail Palm</th>
+        <td>x</td>
+        <td>-</td>
+        <td>x</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      </tbody>
+      <tfoot>
+          <td colspan="6" style="text-align: center">&copy;2021 Plant Killer</td>
+      </tfoot>
+    </table>
+
+    <h3>Contact Me: <a href="mailto:fake@email.com">fake@email.com</a></h3>
+  </body>
+</html>
