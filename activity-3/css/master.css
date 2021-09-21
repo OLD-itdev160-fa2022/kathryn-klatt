@@ -1,0 +1,50 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    margin: 5% 0 0 5%;
+}
+
+img {
+    height: 20em;
+    border-style: ridge;
+}
+
+img:hover {
+    height: 30em;
+}
+
+h1 {
+    font-family: 'Gluten', 'Kristen ITC', sans-serif;
+    font-size: 200%;
+    color: rgb(94,13,13);
+}
+
+figcaption { 
+    font-family: 'Gluten', 'Kristen ITC', sans-serif;
+    padding-top: 1%;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-shadow: 2px 1px burlywood;
+}
+
+.review {
+    padding: 0 8em 0 4em;
+}
+
+#cactus {
+    border-color: #7FFFD4;
+}
+
+#pedestal {
+    border-color: aqua;
+}
+
+#smartykat {
+    border-color: hsl(8, 52%, 54%);
+}
+
+footer {
+    font-family: 'Gluten', 'Kristen ITC', sans-serif;
+    font-size: 1em;
+    color: rgba(74, 41, 20, .5);
+}
