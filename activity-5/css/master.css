@@ -1,0 +1,43 @@
+body{
+    font-family: 'Patua One', Helvetica, sans-serif;
+    padding: 2%;
+}
+
+h1{
+    font-size: 2em;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-weight:200;
+}
+
+img{
+    width: 80%;
+    margin: auto;
+}
+
+#author, #date{ 
+    font-size: .75em;
+    font-family: Helvetica, sans-serif;
+    color: #6b7177;
+}
+
+
+#p1-name, #p2-name, #p3-name{
+    font-family: 'Patua One', Helvetica, sans-serif;
+}
+
+#p1-downloads, #p2-downloads, #p3-downloads, #p1-stars, #p2-stars, #p3-stars {
+    padding-left: 10%;
+}
+
+.package-container{
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+main{
+    padding-bottom: 2%;
+    width: 80%;
+}
