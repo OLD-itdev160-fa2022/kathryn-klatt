@@ -1,0 +1,40 @@
+body{
+    font-family: 'Nunito', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cornflowerblue;
+}
+
+h1{
+    margin-left: 2%;
+    color: seashell;
+    text-shadow: 2px 2px royalblue;
+}
+
+button {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Nunito', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:navy;
+}
+
+#message-container{
+    width: 90%;
+    max-height: 30%;
+    margin: auto;
+    border: 2px solid royalblue;
+    background-color: royalblue;
+
+}
+
+#message-input {
+    margin-left: 5%;
+    width: 50%;
+}
+
+.in-message{
+background-color:peachpuff;
+padding: 0 .5%;
+}
+
+.out-message{
+background-color:plum;
+padding: 0 .5%;
+}
