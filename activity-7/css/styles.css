@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin-left: 3%;
+}
+
+ol{
+    border: solid 1px black;
+}
+
+ol>li{
+    border-bottom: solid 1px aqua;
+    padding-left: 10px;
+}
+
+ul {
+    text-decoration: line-through;
+}
+
+li {
+    margin: 5px;
+}
+
+#completed-list{
+    list-style-type: none;
+}
+
+#completed-list li {
+    text-decoration: line-through;
+}
