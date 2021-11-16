@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Poppins','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color:#555;
+    background-color: violet;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    padding: 0 5%;
+    color: #efefef;
+    background-color: darkmagenta;
+    border-bottom: 2px double purple;
+}
+
+button{
+    font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    border: 2px dotted lavender;
+    padding: 1% 2%;
+    font-size: larger;
+    background-color: darkorchid;
+    color: whitesmoke;
+}
+
+header .header-title{
+    display: inline-block;
+}
+
+header .header-menu{
+    flex-grow:1;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    color:#777;
+    font-size:smaller;
+}
+
+h1{
+    font-weight: 200;
+}
+
+.modal h2{
+    font-variant: small-caps;
+    font-weight: 800;
+    letter-spacing: .5em;
+    margin-bottom: 1%;
+    color:rebeccapurple;
+}
+
+main{
+    flex:1;
+}
+
+main #display-content{
+    padding: 2% 0 0 5%;
+}
+
+footer{
+    padding: 2% 5%;
+    color:purple;
+}
+
+#modal-backdrop{
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.75);
+}
+
+#modal-backdrop.visible{
+    display:block;
+}
+
+.modal {
+    display:none;
+    position:absolute;
+    padding: 2%;
+    border:solid 1px #555;
+    background-color: #fff;
+    z-index:99999;
+    width:500px;
+    height: 350px;
+    top:20%;
+    left:30%;
+}
+
+
+#modal-dialog {
+
+    background-color: lavender;
+
+}
+
+.modal.visible{
+    display:block;
+}
+
+.modal-content{
+    width: 300px;
+    height: 300px;
+}
+
+#edit-title{
+    width: 300px;
+}
+
+#edit-title-text{
+    width:400px;
+}
+
+#edit-content-text{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer > button {
+    margin-right: 2%;
+    padding: 1% 2%;
+    background-color: darkorchid;
+    color: whitesmoke;
+}
+
+#save-button{
+    padding: 1% 3%;
+}
